@@ -1,0 +1,21 @@
+{
+  "name": "bavix/cases",
+  "description": "Easy package to work with ip addresses",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Babichev Maxim",
+      "email": "info@babichev.net"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "phpunit/phpunit": "~7.0",
+    "facebook/webdriver": "~1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bavix\\Cases\\": "./src"
+    }
+  }
+}
